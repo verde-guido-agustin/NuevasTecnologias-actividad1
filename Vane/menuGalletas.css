@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta{
+    display: inline-block;
+    padding: 30px;
+    width: 20%;
+}
