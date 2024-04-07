@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Reddit Mono", monospace;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.header_image {
+  background-image: url("./images/muffin-background.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.header_title-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header_title-box_title {
+  border: 2px solid white;
+  padding: 1rem;
+}
+.muffin-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.muffin-card {
+  display: flex;
+  border: 2px solid white;
+  margin: 3rem;
+  border-radius: 5px;
+  max-width: 400px;
+}
+.muffin-card_image {
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+}
+.muffin-card_text_title {
+  text-align: center;
+  font-weight: 600;
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  /* border-bottom: 1px solid white; */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.muffin-card_text {
+  margin: 1rem;
+}
+.muffin-card_text_price {
+  text-align: end;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}

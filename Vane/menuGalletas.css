@@ -1,10 +1,92 @@
-.menu{
-    display: flex;
-    flex-direction: row;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.lora-web {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+#header{
+    background-image: url(images/banner2.jpg);
+    background-size: cover;
+    background-position: 70%;
+    filter: opacity(0.5);
+    padding: 100px;
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.menu{
+    margin: 70px;
+}
+
 
 .tarjeta{
     display: inline-block;
-    padding: 30px;
-    width: 20%;
+    padding: 40px;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    /*background-color:#d7f3fa ;*/
+    background: rgb(174,238,217);
+    background: radial-gradient(circle, rgba(174,238,217,1) 0%, rgba(136,176,223,1) 100%);
+    cursor: pointer;
+    border-radius: 70px 30px;
+}
+
+.tarjeta:hover {
+    opacity: 0.6;
+}
+
+.tarjeta button{
+    padding: 20px;
+    background-color:#c0dffc ;
+    border-radius: 30px 30px;
+    border: #5179fc;
+}
+
+.tarjeta button:hover{
+    padding: 25px;
+    background-color: white;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+   /* background-color: #fcfce3;*/
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    margin: 50px;
+}
+
+footer li a {
+    font-size: 30px;
+    margin: 50px;
+    color: white;
 }
