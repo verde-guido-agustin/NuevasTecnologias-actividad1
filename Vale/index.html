@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <link rel="stylesheet" href="./style.css" />
     <title>Panaderia - Muffins</title>
   </head>
@@ -16,130 +21,353 @@
     <header id="header">
       <div class="header_image"></div>
       <div class="header_title-box">
-        <h1 class="header_title-box_title">Menu - Muffins</h1>
+        <h1 class="header_title">Menu</h1>
+      </div>
+      <div class="header_tabs-box">
+        <ul class="tabs-list">
+          <li class="tabs-item">
+            <a href="#muffins">Muffins</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#cookies">Cookies</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#panaderia">Panaderia</a>
+          </li>
+
+          <li class="tabs-item">
+            <a href="#contacto">Contactanos</a>
+          </li>
+        </ul>
       </div>
     </header>
-    <div class="muffin-container">
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/crumble-muffin.jpeg"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Apple Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena rellena de manzana y canela con top de crumble y helado
+    <main class="main-container">
+      <div class="muffin-container">
+        <h2 class="section_title" id="muffins">Muffins</h2>
+        <div class="card-container">
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/crumble-muffin.jpeg"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Apple Muffin</div>
+              <div class="card_text_description">
+                Magdalena rellena de manzana y canela con top de crumble y
+                helado
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
           </div>
-          <div class="muffin-card_text_price">300$</div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/apple-muffin.webp"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Vainilla Muffin</div>
+              <div class="card_text_description">
+                Magdalena de vainilla con frostin de queso crema colorido
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/banana-muffin.jpeg"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Banana Muffin</div>
+              <div class="card_text_description">
+                Magdalena de banana y nuez
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/carrot-muffin.jpeg"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Carrot cake Muffin</div>
+              <div class="card_text_description">
+                Magdalena de zanahoria y nueces con frostin de queso crema
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/cherry-muffin.jpeg"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Frambuesa Muffin</div>
+              <div class="card_text_description">
+                Magdalena rellena de Frambuesa y crema con frostin de queso
+                crema
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/chocolate-chips-muffin.jpeg"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Chocolate chips Muffin</div>
+              <div class="card_text_description">
+                Magdalena de vainilla con chips de chocolate
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/chocolate-muffin.webp"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Chocolate Muffin</div>
+              <div class="card_text_description">
+                Magdalena de chocolate con corazon y frostin de chocolate blanco
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/ddl-muffin.webp"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Apple Muffin</div>
+              <div class="card_text_description">
+                Magdalena rellena de dulce de leche con frostin de chocolate
+                blanco y negro
+              </div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cookies-container">
+        <h2 class="section_title" id="cookies">Cookies</h2>
+        <div class="card-container">
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/avena-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie de Avena</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/chips-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie chips</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/dulce_leche-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie de dulce de leche</div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/mantequilla-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie de mantequilla</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/nueces-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie de nueces</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/red_velvet-cookie.png"
+              alt="apple-muffin"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Cookie Red Velvet</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panaderia-container">
+        <h2 class="section_title" id="panaderia">Panaderia</h2>
+        <div class="card-container">
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/arrollado.jpeg"
+              alt="arrollado"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Arrollado</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card_image" src="./images/croissant" alt="croissant" />
+            <div class="card_text">
+              <div class="card_text_title">Croissant</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/palmeritas.jpeg"
+              alt="palmeritas"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Palmeritas</div>
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card_image" src="./images/churros.jpeg" alt="churros" />
+            <div class="card_text">
+              <div class="card_text_title">Churros</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/cinamonroll.jpeg"
+              alt="cinamonroll"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Rol de Canela</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="card_image"
+              src="./images/panmolde.png"
+              alt="panmolde"
+            />
+            <div class="card_text">
+              <div class="card_text_title">Pan de molde</div>
+
+              <div class="card_text_price">ARS 300</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacto-container">
+        <h2 class="section_title" id="contacto">Contactanos</h2>
+
+        <div class="form-container">
+          <form action="">
+            <label class="label-input" for="email-input">Email</label>
+            <input
+              type="email"
+              name="Email"
+              id="email-input"
+              class="form-input"
+              placeholder="example@gmail.com"
+            />
+            <label class="label-input" for="comentario">Comentario</label>
+            <textarea
+              name="Comentario"
+              id="comentario"
+              cols="30"
+              rows="10"
+              class="form-input"
+              placeholder="example..."
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
         </div>
       </div>
 
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/apple-muffin.webp"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Vainilla Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena de vainilla con frostin de queso crema colorido
-          </div>
-          <div class="muffin-card_text_price">300$</div>
-        </div>
-      </div>
+      <footer id="footer">
+        <div class="footer_image"></div>
 
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/banana-muffin.jpeg"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Banana Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena de banana y nuez
-          </div>
-          <div class="muffin-card_text_price">300$</div>
-        </div>
-      </div>
+        <div class="footer-media_container">
+          <a class="footer-icon" href="#"><i class="bi bi-youtube"></i></a>
 
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/carrot-muffin.jpeg"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Carrot cake Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena de zanahoria y nueces con frostin de queso crema
-          </div>
-          <div class="muffin-card_text_price">300$</div>
-        </div>
-      </div>
+          <a class="footer-icon" href="#"><i class="bi bi-facebook"></i></a>
 
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/cherry-muffin.jpeg"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Frambuesa Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena rellena de Frambuesa y crema con frostin de queso crema
-          </div>
-          <div class="muffin-card_text_price">300$</div>
-        </div>
-      </div>
+          <a class="footer-icon" href="#"><i class="bi bi-twitter-x"></i></a>
 
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/chocolate-chips-muffin.jpeg"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Chocolate chips Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena de vainilla con chips de chocolate
-          </div>
-          <div class="muffin-card_text_price">300$</div>
+          <a class="footer-icon" href="#"><i class="bi bi-github"></i></a>
         </div>
-      </div>
-
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/chocolate-muffin.webp"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Chocolate Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena de chocolate con corazon y frostin de chocolate blanco
-          </div>
-          <div class="muffin-card_text_price">300$</div>
+        <div class="footer-text">
+          <small>Encontranos en</small>
+          <br />
+          <small>Callao 2233, CABA, Buenos Aires, Argentina</small>
         </div>
-      </div>
-
-      <div class="muffin-card">
-        <img
-          class="muffin-card_image"
-          src="./images/ddl-muffin.webp"
-          alt="apple-muffin"
-        />
-        <div class="muffin-card_text">
-          <div class="muffin-card_text_title">Apple Muffin</div>
-          <div class="muffin-card_text_description">
-            Magdalena rellena de dulce de leche con frostin de chocolate blanco
-            y negro
-          </div>
-          <div class="muffin-card_text_price">300$</div>
-        </div>
-      </div>
-    </div>
+      </footer>
+    </main>
   </body>
 </html>
