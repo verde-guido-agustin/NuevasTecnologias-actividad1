@@ -1,80 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENU DULCE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='menuGalletas.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Panaderia</title>
 </head>
-<body class="lora-web">
-    <header id="header">
-        <a href="#"><h1>MENÚ GALLETAS</h1></a>
-    </header>
-    <div class="menu">
-        <div class="tarjeta">
-            <a href="#"><img src="images/red_velvet.png" alt="Galleta Red Velvet" width="200" height="200"></a>
-            <h2>RED VELVET</h2>
-            <p>PEQUEÑA <strong>ARS 1.500,00</strong></p>
-            <p>GRANDE <strong>ARS 2.000,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
-        <div class="tarjeta">
-            <a href="#"><img src="images/chips.png" alt="Galleta Chips de Chocolate" width="200"></a>
-            <h2>CHOCOLATE CHIPS</h2>
-            <p>PEQUEÑA <strong>ARS 1.400,00</strong></p>
-            <p>GRANDE <strong>ARS 1.800,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
-        <div class="tarjeta">
-            <a href="#"><img src="images/mantequilla.png" alt="Galleta de mantequilla" width="200"></a>
-            <h2>MANTEQUILLA</h2>
-            <p>PEQUEÑA <strong>ARS 1.200,00</strong></p>
-            <p>GRANDE <strong>ARS 1.600,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
-        <div class="tarjeta">
-            <a href="#"><img src="images/dulce_leche.png" alt="Galleta Dulce de leche" width="200"></a>
-            <h2>DULCE DE LECHE</h2>
-            <p>PEQUEÑA <strong>ARS 1.600,00</strong></p>
-            <p>GRANDE <strong>ARS 2.100,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
-        <div class="tarjeta">
-            <a href="#"><img src="images/nueces.png" alt="Galleta de nueces" width="200" height="200"></a>
-            <h2>NUECES</h2>
-            <p>PEQUEÑA <strong>ARS 1.800,00</strong></p>
-            <p>GRANDE <strong>ARS 2.300,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
-        <div class="tarjeta">
-            <a href="#"><img src="images/avena.png" alt="Galleta de avena" width="200"></a>
-            <h2>AVENA</h2>
-            <p>PEQUEÑA <strong>ARS 1.200,00</strong></p>
-            <p>GRANDE <strong>ARS 1.600,00</strong></p>
-            <a href="#"><button>COMPRAR</button></a>
-        </div>
+
+<body>
+  <header id="header">
+    <div class="header_image"></div>
+    <div class="header_title-box">
+      <h1 class="header_title-box_title">Menu</h1>
     </div>
-    <footer>
-        <div class="container">
-            <ul class="row">
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
-                </li>
-            </ul>
+  </header>
+
+  <nav>
+      <ul class="row">
+          <li>
+              <a href="#">HOME</a>
+          </li>
+          <li>
+              <a href="#panaderia">PANADERIA</a>
+          </li>
+          <li>
+              <a href="#muffins">MUFFINS</a>
+          </li>
+          <li>
+              <a href="#galletas">GALLETAS</a>
+          </li>
+      </ul>
+  </nav>
+
+  <section id="galletas">
+    <div class="muffin-container">
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/chips.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">CHOCOLATE CHIPS</div>
+          <div class="muffin-card_text_description">
+            Galleta de vainilla con chispas de chocolate
+          </div>
+          <div class="muffin-card_text_price">300$</div>
         </div>
-    </footer>
+      </div>
+  
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/red_velvet.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">RED VELVET</div>
+          <div class="muffin-card_text_description">
+            Galleta de red velvet con chispas de chocolate blanco
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+  
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/mantequilla.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">MANTEQUILLA</div>
+          <div class="muffin-card_text_description">
+            Galleta tradicional de mantequilla 
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+  
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/avena.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">AVENA</div>
+          <div class="muffin-card_text_description">
+            Galleta de avena con pasas o chispas de chocolate
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+  
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/dulce_leche.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">DULCE DE LECHE</div>
+          <div class="muffin-card_text_description">
+            Galleta de dulce de leche 
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+  
+      <div class="muffin-card">
+        <img class="muffin-card_image" src="./images/nueces.png" alt="apple-muffin" />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">NUECES</div>
+          <div class="muffin-card_text_description">
+            Galleta de nueces 
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+  
+  
+    </div>
+  </section>
+  <section id="muffins">
+    <div class="muffin-container">
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/crumble-muffin.jpeg"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Apple Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena rellena de manzana y canela con top de crumble y helado
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/apple-muffin.webp"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Vainilla Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena de vainilla con frostin de queso crema colorido
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/banana-muffin.jpeg"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Banana Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena de banana y nuez
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/carrot-muffin.jpeg"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Carrot cake Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena de zanahoria y nueces con frostin de queso crema
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/cherry-muffin.jpeg"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Frambuesa Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena rellena de Frambuesa y crema con frostin de queso crema
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/chocolate-chips-muffin.jpeg"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Chocolate chips Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena de vainilla con chips de chocolate
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/chocolate-muffin.webp"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Chocolate Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena de chocolate con corazon y frostin de chocolate blanco
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+
+      <div class="muffin-card">
+        <img
+          class="muffin-card_image"
+          src="./images/ddl-muffin.webp"
+          alt="apple-muffin"
+        />
+        <div class="muffin-card_text">
+          <div class="muffin-card_text_title">Apple Muffin</div>
+          <div class="muffin-card_text_description">
+            Magdalena rellena de dulce de leche con frostin de chocolate blanco
+            y negro
+          </div>
+          <div class="muffin-card_text_price">300$</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div>
+        <ul class="row">
+            <li>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+        </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
