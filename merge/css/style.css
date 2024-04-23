@@ -1,0 +1,1097 @@
+@keyframes opacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes blur {
+  0% {
+    filter: blur(300px); }
+  100% {
+    filter: blur(0); } }
+
+@keyframes slide_left {
+  0% {
+    opacity: 0;
+    transform: translate(-500px, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px); } }
+
+@keyframes slide_right {
+  0% {
+    transform: translate(500px, 0px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+/*slide_line*/
+@keyframes slide_line {
+  0% {
+    width: 0%; }
+  100% {
+    transform: 100%; } }
+
+@keyframes submit_id {
+  0% {
+    width: 0px; }
+  100% {
+    width: 95px; } }
+
+@keyframes slide_left_nav {
+  0% {
+    opacity: 0;
+    filter: blur(50px);
+    transform: translate(0px, -500px); }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate(0px, 0px); } }
+
+@keyframes slide_right_nav {
+  0% {
+    filter: blur(50px);
+    opacity: 0;
+    transform: translate(0px, 500px); }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate(0px, 0px); } }
+
+@keyframes slide_center_nav {
+  0% {
+    filter: blur(50px);
+    opacity: 0; }
+  100% {
+    filter: blur(0px);
+    opcaity: 1; } }
+
+@keyframes sepia {
+  0% {
+    background: linear-gradient(red, blue); }
+  100% {
+    background: none; } }
+
+@keyframes nav_appear {
+  0% {
+    opacity: 0;
+    font-size: 1.5vw; }
+  100% {
+    opacity: 1;
+    font-size: 1.5vw; } }
+
+@keyframes slide_left {
+  0% {
+    opacity: 0;
+    transform: translate(-500px, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px); } }
+
+.delay-me1 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.1s; }
+
+.delay-me2 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.2s; }
+
+.delay-me3 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.3s; }
+
+.delay-me4 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.4s; }
+
+.delay-me5 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.5s; }
+
+.delay-me6 {
+  animation: nav_appear 2s 1 forwards;
+  animation-delay: 0.6s; }
+
+.animaLeft {
+  animation: slide_left 1s 1 forwards; }
+
+.animaRight {
+  animation: slide_right 1s 1 forwards; }
+
+.animaleft_nav {
+  animation: slide_left_nav 1s 1 forwards; }
+
+.animacenter_nav {
+  animation: slide_center_nav 1s 1 forwards; }
+
+.animaright_nav {
+  animation: slide_right_nav 1s 1 forwards; }
+
+@font-face {
+  font-family: 'Digital';
+  src: local("Digital"), url(../fonts/DS-DIGI.TTF) format("opentype"); }
+
+@font-face {
+  font-family: 'Apex';
+  src: local("Apex"), url(../fonts/ApexMk2-Regular.otf) format("opentype"); }
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Facon';
+  src: local("Facon"), url(../fonts/Facon.ttf) format("opentype"); }
+
+@font-face {
+  font-family: 'Acumin';
+  src: local("Acumin"), url(../fonts/Acumin-RPro.otf) format("opentype"); }
+
+@font-face {
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: Source;
+  src: url(../fonts/SourceSansPro-Regular.ttf); }
+
+@font-face {
+  font-family: 'Reddit Mono';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redditmono/v1/oPWL_kRmmu4oQ88oo13o4-rERjtPRw.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Reddit Mono';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redditmono/v1/oPWL_kRmmu4oQ88oo13o4-rFRjtPRw.woff2) format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Reddit Mono';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redditmono/v1/oPWL_kRmmu4oQ88oo13o4-rLRjs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+.pan-marroqui {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://www.comedera.com/wp-content/uploads/2023/01/pan-marroqui.jpg); }
+
+.chipa {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://assets.elgourmet.com/wp-content/uploads/2023/10/shutterstock_1758025376-1-1024x683.jpg.webp); }
+
+.salvado {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://resizer.glanacion.com/resizer/v2/pan-casero-de-salvado-de-GJLJBX77UJGF7L3ROBQ3WC6OLY.jpg?auth=b8eea4606971e22e498cc05f2460f40d15731041a0036c412f970ae68e084947&width=768&height=512&quality=70&smart=true); }
+
+.panMadre {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://www.cuerpomente.com/medio/2023/04/11/pan-sin-levadura-integral_61108cd4_230411170709_1280x720.jpg); }
+
+.media {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://salroche.com/cdn/shop/articles/bread-g56e71f093_1920.jpg?v=1646709570); }
+
+.factura {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(https://www.cronica.com.ar/__export/1649254444976/sites/cronica/img/2022/04/06/recetas-de-factura-faci-casera-rapida_crop1649253823896.jpg_974518173.jpg); }
+
+.chip_cookie {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/chips-cookie.png); }
+
+.avena_cookie {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/avena-cookie.png); }
+
+.dulce_leche-cookie {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/dulce_leche-cookie.png); }
+
+.mantequilla-cookie {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/mantequilla-cookie.png); }
+
+.red_velvet-cookie {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/red_velvet-cookie.png); }
+
+.apple-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/apple-muffin.webp); }
+
+.banana-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/banana-muffin.jpeg); }
+
+.carrot-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/carrot-muffin.jpeg); }
+
+.cherry-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/cherry-muffin.jpeg); }
+
+.chocolate-chips-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/chocolate-chips-muffin.jpeg); }
+
+.chocolate-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/chocolate-muffin.webp); }
+
+.crumble-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/crumble-muffin.jpeg); }
+
+.ddl-muffin {
+  background-image: linear-gradient(to right, rgba(207, 207, 207, 0), white), url(../images/ddl-muffin.webp); }
+
+.panaderia {
+  background-image: linear-gradient(to right, transparent, transparent), url(https://www.llopartec.com/sites/default/files/styles/12col169custom_user_lg_1x/public/imatges/blog/tendencias-pan-llopartec.jpg?itok=XnF_CdkX&timestamp=1666174899); }
+
+.galletitas {
+  background-image: linear-gradient(to right, transparent, transparent), url(https://www.divinacocina.es/wp-content/uploads/2015/09/COOKIES-CHOCOLATE-FOTO-6.jpg); }
+
+.muffins {
+  background-image: linear-gradient(to right, transparent, transparent), url(https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2023-03/recetas%20fa%CC%81ciles%20muffins%20caseros%C2%A9iStock.jpg.webp?itok=C_7dZV4P); }
+
+.postres {
+  background-image: linear-gradient(to right, transparent, transparent), url(https://www.recetasnestle.com.ar/sites/default/files/styles/crop_article_banner_desktop_nes/public/2023-03/postre-en-vaso-dulce-leche.jpg.webp?itok=6H4GSLKq); }
+
+.b-img1 {
+  background-image: url(../images/art_1.jpg); }
+
+.b-img2 {
+  background-image: url(../images/art_2.webp); }
+
+.b-img3 {
+  background-image: url(../images/art_3.jpeg); }
+
+.b-img4 {
+  background-image: url(../images/twitter.png); }
+
+.b-img5 {
+  background-image: url(../images/init1.jpeg); }
+
+.b-img6 {
+  background-image: url(../images/init2.jpg); }
+
+.b-img7 {
+  background-image: url(../images/init3.jpg); }
+
+.b-img8 {
+  background-image: url(../images/init4.jpg); }
+
+#icon {
+  background-image: url(../images/croissant.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  right: 0px;
+  margin: 1%;
+  top: 0px;
+  z-index: 100000000;
+  animation: opacity 4s 1 forwards; }
+
+#icon {
+  background-image: url(../images/croissant.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  right: 0px;
+  margin: 1%;
+  top: 0px;
+  z-index: 100000000;
+  animation: opacity 4s 1 forwards; }
+
+a {
+  color: white; }
+
+body,
+body:focus {
+  background-image: url(../images/fondo.jpg);
+  overflow: overlay;
+  overflow-x: hidden;
+  outline: none;
+  -webkit-user-select: none;
+  font-family: 'Reddit Mono';
+  color: white; }
+
+main {
+  outline: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch; }
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  place-content: center space-between;
+  text-indent: 20px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 1px 1px white;
+  flex-direction: column;
+  backdrop-filter: brightness(0.3); }
+
+html,
+body,
+iframe {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  border: none; }
+
+div {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+#conteiner {
+  margin: auto;
+  overflow: hidden;
+  height: 97%; }
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.col, .col-sm-8 {
+  padding-left: 0px; }
+
+#tittle {
+  width: 50%;
+  font-family: 'Reddit Mono';
+  font-size: 4vh;
+  text-align: left;
+  margin-top: 30px;
+  animation: opacity 4s 1 forwards; }
+
+#line_event {
+  width: 100%;
+  text-align: center;
+  height: 9%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 1px 1px white;
+  border-top: 10px solid #ffffff52;
+  animation: slide_line 1s 1 forwards; }
+
+#background_event {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  min-height: 700px; }
+
+#navs {
+  width: 100%;
+  display: flex;
+  height: auto;
+  min-height: 800px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#navs_center {
+  width: 100%;
+  display: flex;
+  height: 88%;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: stretch; }
+
+#navs_center > a {
+  box-shadow: 0px 0px 10px 0px #0000009c;
+  width: 30%;
+  max-width: 400px;
+  margin: 1%;
+  min-height: 700px; }
+
+.marginA {
+  margin-bottom: 5%;
+  width: 500px;
+  height: 344px; }
+
+#navLeft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 35%;
+  float: left;
+  margin-left: 10px;
+  padding: 20px; }
+
+#navRight {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 35%;
+  float: right;
+  margin-right: 10px; }
+
+#option_center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  backdrop-filter: sepia(1) blur(1px);
+  border-left: 150px solid #38459957;
+  background: linear-gradient(red, blue);
+  opacity: 0.5;
+  height: 600px; }
+
+#option_center > div:first-of-type {
+  background: black;
+  font-size: 25px;
+  color: white;
+  height: auto;
+  text-indent: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px black; }
+
+#option_center > div:nth-child(2n) {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end; }
+
+#option_center > div > p {
+  text-align: right;
+  font-size: 20px; }
+
+.alignRight {
+  text-align: right; }
+
+.flexEnd {
+  align-items: flex-end;
+  border-radius: 10px 10px 5px 50px;
+  text-align: right;
+  animation: opacity 4s 1 forwards;
+  animation: slide_right 1s 1 forwards; }
+
+.flexStart {
+  align-items: flex-start;
+  border-radius: 10px;
+  text-align: left;
+  animation: opacity 4s 1 forwards;
+  animation: slide_left 1s 1 forwards; }
+
+.modal_printer {
+  margin-bottom: 50px;
+  background: #ffffff7a;
+  animation: opacity 1s 1 forwards;
+  border-radius: 10px;
+  margin: 5px;
+  margin-bottom: 125px;
+  display: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+
+#content_alert {
+  width: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff85;
+  box-shadow: 0px 0px 10px 0px #0000009c;
+  animation: blur 1s 1 forwards; }
+
+#icon_alert {
+  background-image: url(../images/danger.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px; }
+
+#text_alert {
+  height: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw; }
+
+.btn_nav {
+  text-decoration: none;
+  background: none;
+  border: none; }
+
+.grad {
+  pointer-events: none;
+  min-height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: -moz-linear-gradient(top, rgba(255, 0, 0, 0) 0%, red 100%);
+  background: -webkit-linear-gradient(top, red 0%, red 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, red 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff0000', endColorstr='#ff0000', GradientType=0); }
+
+#option_center:hover > div > p {
+  color: black; }
+
+#option_center:hover,
+#my_btn_opt:hover {
+  transition: all 1s ease-in-out;
+  transform: scale(1.05);
+  text-shadow: 1px 1px black;
+  background: none;
+  opacity: 1;
+  color: black;
+  text-shadow: 1px 1px white; }
+
+#option_center:active,
+#my_btn_opt:active {
+  transition: 0.5s;
+  background: none;
+  border: transparent;
+  filter: brightness(150%);
+  color: black;
+  text-shadow: 1px 1px white; }
+
+#img_central {
+  position: absolute;
+  top: 150px;
+  z-index: -100;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: -webkit-fill-available;
+  object-fit: cover;
+  object-position: 20px 10px;
+  filter: grayscale(1) blur(5px); }
+
+#option_event {
+  box-shadow: 0px 0px 10px 0px #0000009c; }
+
+#option_event:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+  text-shadow: 1px 1px black;
+  opacity: 1;
+  filter: brightness(100%); }
+
+#option_event:active {
+  transition: all 0.5s ease-in-out;
+  text-shadow: 1px 1px black;
+  opacity: 1;
+  box-shadow: inset 0px 0px 20px 2px black;
+  filter: brightness(90%); }
+
+#option_event > div:first-of-type {
+  background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.76));
+  height: 70px;
+  color: white;
+  font-size: 5vh;
+  line-height: 80px;
+  padding-left: 20px; }
+
+#option_event > div:nth-child(2n) {
+  height: 274px;
+  padding: 10px;
+  color: white;
+  font-size: 2vh;
+  /*text-transform: uppercase;*/
+  border-radius: 0px 0px 10px; }
+
+#img_option {
+  position: relative;
+  top: 0px;
+  z-index: -100;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: -webkit-fill-available;
+  object-fit: cover;
+  object-position: 20px 10px;
+  filter: grayscale(1) blur(5px); }
+
+.my_btn {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  padding: 0px;
+  border: none; }
+
+.my-btn-img {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#my_btn_opt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  backdrop-filter: sepia(1) blur(1px);
+  background: linear-gradient(black, blue);
+  opacity: 0.7;
+  text-align: left;
+  padding: 10px;
+  text-shadow: 1px 1px black;
+  font-size: 6vmin;
+  color: white; }
+
+.m_space {
+  margin-bottom: 15px; }
+
+.m_space_f {
+  margin-bottom: 55px; }
+
+.font_bt {
+  font-size: 5vh; }
+
+#ticket {
+  position: absolute;
+  background-color: white;
+  color: black;
+  border: 10px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 461px;
+  padding: 10px;
+  height: auto; }
+
+.pad0 {
+  padding: 0px; }
+
+.control-menu {
+  background-color: white;
+  font-size: 100px;
+  display: flex;
+  position: absolute;
+  z-index: 5000;
+  top: 100px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  backdrop-filter: blur(30px);
+  box-shadow: 1px 4px 14px 1px #00000085;
+  animation: slide_left 0.2s 1 forwards;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  display: none;
+  border-radius: 0px 100% 100% 0px;
+  margin-top: 10px; }
+
+#toggle:checked ~ .control-menu {
+  display: block; }
+
+.mlabel {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end; }
+
+.visually-hidden {
+  position: absolute;
+  left: -100vw; }
+
+#link_m {
+  width: 100%;
+  height: 80px;
+  text-align: left;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  padding: 20px;
+  text-shadow: none;
+  color: black; }
+
+#menu_responsive {
+  position: absolute;
+  top: 13px;
+  left: -19px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+.material-icons {
+  filter: brightness(1); }
+
+form {
+  max-width: 750px;
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px black;
+  margin: 20px;
+  text-shadow: 1px 1px black;
+  animation: slide_left 1s 1 forwards;
+  padding: 1rem; }
+
+form > p,
+h1,
+label {
+  font-size: 3vh;
+  font-family: 'Reddit Mono';
+  text-shadow: 1px 1px black;
+  text-align: left;
+  width: 100%; }
+
+form > div > p {
+  font-size: 2vh; }
+
+.j-center {
+  justify-content: center; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  place-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 3px solid #8080807a;
+  border-radius: 10px;
+  background: #8080805e;
+  font-family: 'Reddit Mono';
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 2vh; }
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #dddddd88;
+  outline: none; }
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px; }
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+  font-size: 2vh;
+  text-shadow: 1px 1px black;
+  font-family: 'Reddit Mono'; }
+
+.registerbtn:hover {
+  opacity: 1; }
+
+a {
+  color: white; }
+
+.signin {
+  text-align: center;
+  font-size: 2vh; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+#menu ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5vw;
+  padding: 10px;
+  font-family: 'Reddit Mono';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 20px;
+  text-shadow: none;
+  opacity: 0;
+  text-indent: 0px;
+  text-shadow: 1px 1px black; }
+
+#menu ul li {
+  background-color: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  z-index: 2000; }
+
+#menu ul li:hover {
+  transition: 0.2s;
+  transform: scale(1.15); }
+
+#menu ul ul li:hover {
+  transform: none; }
+
+#menu ul ul li > a:hover {
+  transition: 0.2s;
+  transform: scale(1.15); }
+
+#menu ul ul li > a {
+  font-size: 1.2vw; }
+
+#menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  z-index: 2000;
+  animation: opacity 1s 1 forwards;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  background-color: white;
+  box-shadow: #0000008a 4px 3px 10px 1px; }
+
+#menu ul ul li {
+  float: none;
+  background-color: white; }
+
+#menu ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+  color: black;
+  text-transform: none;
+  opacity: 1; }
+
+#menu ul li:hover > ul {
+  display: block; }
+
+#menu ul a.red_bt {
+  color: #ff9100;
+  background-image: linear-gradient(to bottom, red, red, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  filter: opacity(0.9); }
+
+#menu ul a.actual_bt {
+  /*box-shadow: 0px 5px 1px 0px #ffc10763;
+      text-shadow: 1px 1px #ffb000;*/
+  text-decoration: underline white 3px; }
+
+@media (max-width: 550px) {
+  #option_center {
+    height: 300px;
+    margin-bottom: 15px; }
+  #atl {
+    position: inherit; }
+  #atr {
+    position: inherit; }
+  #attm {
+    position: inherit; } }
+
+@media (min-width: 551px) {
+  #option_center {
+    height: 600px; }
+  #atl {
+    position: absolute;
+    z-index: 1500;
+    left: 0px; }
+  #atr {
+    position: absolute;
+    z-index: 1500;
+    right: 0px; }
+  #attm {
+    position: absolute;
+    z-index: 1500; } }
+
+.menu_inline {
+  background-color: black; }
+
+@media (max-width: 550px) {
+  .menu_inline {
+    display: none; }
+  #menu_responsive {
+    display: flex; }
+  #tittle {
+    padding-left: 100px; }
+  main {
+    display: block; } }
+
+@media (min-width: 551px) {
+  .menu_inline {
+    display: block; }
+  #menu_responsive {
+    display: none; } }
+
+#description {
+  border: 1px solid white;
+  width: 37%;
+  background: white;
+  color: black;
+  float: right; }
+
+#description > p {
+  text-align: right;
+  color: black;
+  font-size: 2.5vh;
+  margin: 0px; }
+
+#description > p:first-child {
+  color: #ff9100;
+  font-size: 3.5vh;
+  margin-top: 10vh; }
+
+#content_carrito {
+  float: right;
+  width: 170px;
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row; }
+
+#carrito {
+  width: 50px;
+  filter: invert(1); }
+
+.btn-flotante {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  background-color: #E91E63;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 1px 2px 4px 1px #000000ab;
+  z-index: 99; }
+
+.btn-flotante:hover {
+  background-color: white;
+  /* Color de fondo al pasar el cursor */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  filter: invert(1);
+  transform: translateY(-7px); }
+
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    right: 20px; }
+  .btn-flotante > span {
+    display: none; } }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  padding: 2rem; }
+
+.footer-text {
+  text-align: center;
+  margin-top: 1rem; }
+
+.footer-icon {
+  font-size: 2rem;
+  margin: 1rem; }
+
+.imagesStilo {
+  background-size: cover;
+  background-size: 64% 80%;
+  background-repeat: no-repeat;
+  background-position: 0px 70px; }
+
+.imagesMenuStyle {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 70px; }
