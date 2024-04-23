@@ -285,19 +285,7 @@
   background-image: url(../images/init4.jpg); }
 
 #icon {
-  background-image: url(../images/croissant.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 70px;
-  height: 70px;
-  right: 0px;
-  margin: 1%;
-  top: 0px;
-  z-index: 100000000;
-  animation: opacity 4s 1 forwards; }
-
-#icon {
-  background-image: url(../images/croissant.png);
+  background-image: url(../images/logo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 70px;
